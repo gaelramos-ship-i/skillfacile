@@ -278,6 +278,10 @@ nav ul li:hover .sous{
     padding: 40px 0;
 }
 
+.main4 .accompagnementPerso,.smallGroup{
+    padding: 100px 0;
+}
+
 .main4 .titre{
     max-width: 45%;
     margin: auto;
@@ -337,7 +341,6 @@ nav ul li:hover .sous{
     padding-right: 10px;
 }
 
-
 .smallGroup div h3{
     margin-left: 30px;
 }
@@ -352,7 +355,6 @@ nav ul li:hover .sous{
     width: 100%;
     margin: auto;
     padding: 45px 0;
-    
     border-radius: 0 20px 20px 0;
 }
 
@@ -360,6 +362,16 @@ nav ul li:hover .sous{
     content: url(../img/check.png);
     padding-right: 10px;
     margin-left: 30px;
+}
+
+.accompagnementPerso .positionBtn{
+    margin: auto;
+    padding: 0 200px;
+}
+
+.smallGroup .positionBtn{
+    margin: auto;
+    padding: 0 200px;
 }
 
 
