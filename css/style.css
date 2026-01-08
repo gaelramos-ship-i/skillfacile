@@ -366,12 +366,14 @@ nav ul li:hover .sous{
 
 .accompagnementPerso .positionBtn{
     margin: auto;
-    padding: 0 200px;
+    width: 50%;
 }
 
 .smallGroup .positionBtn{
     margin: auto;
-    padding: 0 200px;
+    width: 10%;
+    display: block;
+    width: fit-content;
 }
 
 
@@ -380,7 +382,7 @@ nav ul li:hover .sous{
 .main5{
     max-width: 1440px;
     margin: auto;
-    padding: 100px 0;
+    padding-bottom: 100px;
 }
 
 .main5 div:nth-child(1){
@@ -460,7 +462,6 @@ nav ul li:hover .sous{
 .valid{
     margin-top: 40px;
 }
-
 
 .main5 .formulaire h3{
     text-transform: uppercase;
