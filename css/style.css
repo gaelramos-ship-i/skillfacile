@@ -278,20 +278,20 @@ nav ul li:hover .sous{
     padding: 40px 0;
 }
 
-.main4 article{
+.main4 .titre{
     max-width: 45%;
     margin: auto;
     text-align: center
 }
 
-.main4 h2{
+.main4 .titre h2{
     font-family: "Pacifico", cursive;
     color: #E34E67;
     font-size: 23px;
     font-weight: 400;
 }
 
-.main4 article h3{
+.main4 .titre h3{
     font-family: "Oswald", sans-serif;
     color: #423B73;
     font-size: 38px;
@@ -300,6 +300,28 @@ nav ul li:hover .sous{
     line-height: 2.5rem;
 }
 
+.main4 article:nth-child(2){
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 100px 0;
+}
+
+.main4 article div{
+    text-align: left;
+    padding: 50px 0;
+}
+
+.main4 article div h3{
+    font-size: 28px;
+    color: #30CD8A;
+}
+
+.main4 div{
+    background-color: #1E1D31;
+    max-height: 50%;
+    border-radius: 40px;
+    margin: auto;
+}
 
 
 
@@ -427,7 +449,6 @@ nav ul li:hover .sous{
     font-size: 16px;
     font-weight: 400;
 }
-
 
 /* footer */
 
