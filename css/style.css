@@ -301,7 +301,6 @@ nav ul li:hover .sous{
     font-size: 38px;
     font-weight: 700;
     margin-bottom: 20px;
-    line-height: 2.5rem;
 }
 
 .accompagnementPerso .grid{
@@ -345,12 +344,14 @@ nav ul li:hover .sous{
     margin-left: 30px;
 }
 
-.smallGroup .grid{
+.smallGroup{
+    padding: 100px 0;
     display: grid;
     grid-template-columns: 1fr 3fr;
+    align-items: center;
 }
 
-.smallGroup .grid div{
+.smallGroup .grid div:nth-child(1){
     background-color: #1E1D31;
     width: 100%;
     margin: auto;
@@ -371,9 +372,9 @@ nav ul li:hover .sous{
 
 .smallGroup .positionBtn{
     margin: auto;
-    width: 10%;
-    display: block;
     width: fit-content;
+    position: relative;
+    top: 65px;
 }
 
 
