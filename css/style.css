@@ -571,6 +571,10 @@ footer > p > a:hover{
         padding: 50px;
     }
 
+    .main1 div img{
+        width: 600px;
+    }
+
     .sectionGrid{
         display: block;
         margin-left: 40px;
@@ -594,6 +598,10 @@ footer > p > a:hover{
 
     .grid div h3{
         font-size: 20px;
+    }
+
+    .main2 div a{
+        display: block;
     }
 }
 
