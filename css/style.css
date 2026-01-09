@@ -105,6 +105,10 @@ nav ul li:hover .sous{
     display: block;
 }
 
+#burger{
+    display: none;
+}
+
 /* Main */
 
 /* Main 1 */
@@ -549,4 +553,52 @@ footer > p > a{
 
 footer > p > a:hover{
     color: #E34E67;
+}
+
+/* Responsive  */
+
+@media screen and (max-width:1024px){
+
+    #burger{
+        display: block;
+    }
+
+    header nav{
+        display: none;
+    }
+
+    .main1 div{
+        padding: 50px;
+    }
+
+    .sectionGrid{
+        display: block;
+        margin-left: 40px;
+    }
+
+    .accompagnementPerso .grid div {
+        padding: 25px 15px;
+    }
+
+    .accompagnementPerso .grid img{
+        width: 380px;
+    }
+
+    .smallGroup .grid div:nth-child(1){
+        padding: 25px 15px;
+    }
+
+    .smallGroup img{
+        width: 380px;
+    }
+
+    .grid div h3{
+        font-size: 20px;
+    }
+}
+
+/* Responsive mobile */
+
+@media screen and (max-width:767px){
+
 }
