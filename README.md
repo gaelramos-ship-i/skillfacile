@@ -1,7 +1,7 @@
-# Projet SkillFacile
+# Project SkillFacile
 
-Dans le cadre de la formation Langage a la carte de l'école La Plateforme le projet skillfacile consiste a reproduire l'intégration du site en HTML et CSS. 
+As part of the "Language à la carte" training at La Plateforme school, the skillfacile project consists of reproducing the integration of the site in HTML and CSS.
 
 ## Getting Started
 
-Le projet est publié sur GitHub pages, accesible sur mon profil. 
+The project is published on GitHub pages, accessible on my profile.
